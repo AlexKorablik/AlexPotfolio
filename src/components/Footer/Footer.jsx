@@ -48,12 +48,12 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/alexandr-korablev-084752231/">
+              <a href="https://www.linkedin.com/in/alexandr-korablev-084752231/" target="_blank" >
                 <FaLinkedinIn size={30} color="#0D2F3F" />
               </a>
             </li>
             <li>
-              <a href="https://github.com/AlexKorablik?tab=repositories">
+              <a href="https://github.com/AlexKorablik?tab=repositories" target="_blank" >
                 <FiGithub size={30} color="#0D2F3F" />
               </a>
             </li>
