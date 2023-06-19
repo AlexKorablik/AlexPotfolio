@@ -8,7 +8,7 @@ import {
   textVariant2,
 } from "../../utils/motion";
 const handleClick = (url) => {
-  window.location.href = url;
+  window.open(url, '_blank');
 };
 const Portfolio = () => {
   return (
