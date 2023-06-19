@@ -16,8 +16,8 @@ const study = () => {
       variants={staggerChildren}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
-      className={`paddings ${css.wrapper}`}
+      viewport={{ once: false, amount: 0.1 }}
+      className={`paddings bg-primary ${css.wrapper}`}
     >
       <a className="anchor" id="work"></a>
 

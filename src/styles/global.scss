@@ -1,7 +1,13 @@
 @import "./contants.scss";
 
 .bg-primary {
-  background: #b7cfc374;
+  background: #b7cfc3ce;
+}
+.bg-secondary {
+  background: #97bfabdc;
+}
+.bg-white {
+  background: rgba(237, 248, 243, 0.697);
 }
 
 .innerWidth {
@@ -101,6 +107,7 @@
   @media (max-width: $sm) {
     font-size: 2.5rem;
   }
+  color: #0d2f3f;
   font-size: 3rem;
   font-weight: bold;
 }
@@ -110,6 +117,7 @@
     font-size: 1.1rem;
     line-height: 40px;
   }
+
   line-height: 50px;
   font-size: 1.3rem;
   font-weight: 500;

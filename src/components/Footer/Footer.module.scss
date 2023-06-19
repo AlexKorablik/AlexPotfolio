@@ -19,7 +19,7 @@
 
         a {
           text-decoration: underline;
-          color: orange;
+          color: rgb(33, 181, 92);
         }
       }
       > :nth-child(3n) {
@@ -37,7 +37,7 @@
           &::before {
             content: "";
             width: 0;
-            height: calc(100% - 2px);
+            height: calc(100% - 6px);
             border-top: 3px solid $secondary;
             border-bottom: 3px solid $secondary;
             position: absolute;
@@ -48,12 +48,13 @@
           &::after {
             content: "";
             width: 0;
-            height: calc(100% - 2px);
+            height: calc(100% - 6px);
             border-top: 3px solid $secondary;
             border-bottom: 3px solid $secondary;
             position: absolute;
             top: 0;
             right: 0;
+            bottom: 0;
             transition: all 0.5s;
           }
           &:hover {

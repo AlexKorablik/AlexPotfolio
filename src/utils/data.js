@@ -42,7 +42,7 @@ export const workExp = [
   {
     place: "Ness Technology LTD.",
     tenure: "Mar 2021 - Apr 2022",
-    role: "Tier 2 - Techniacal Support",
+    role: "Tier 2 - Technical Support",
     detail:
       "Diagnostic and troubleshooting software, hardware, peripherals, networking issues for a large scale organisation ",
   },
@@ -56,12 +56,12 @@ export const workExp = [
 ];
 export const studyExp = [
   {
-    place: "Holtz",
-    tenure: "Electronics and Computers Diploma",
+    place: "Full Stack Development Course",
+    tenure: "Full Stack Development course by NetCraft Academy. ",
   },
   {
-    role: "Full Stack Development Course",
-    detail: "Full Stack Development course By NetCraft Academy. ",
+    role: "Holtz",
+    detail: "Electronics and Computers Diploma",
   },
 
   // {

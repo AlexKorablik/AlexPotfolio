@@ -4,7 +4,7 @@ import css from "./Hero.module.scss";
 import { motion } from "framer-motion";
 const Hero = () => {
   return (
-    <section className={`paddings ${css.wrapper}`}>
+    <section className={`paddings bg-primary ${css.wrapper}`}>
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -12,6 +12,7 @@ const Hero = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`innerWidth ${css.container}`}
       >
+        <div style={{ paddingTop: "5rem" }}></div>
         <div className={css.upperElements}>
           <motion.span
             className="primaryText"
@@ -27,7 +28,7 @@ const Hero = () => {
           >
             I create responsive eye catching
             <br />
-            Web applications, And I love what i do{" "}
+            web applications, and I love what i do.{" "}
           </motion.span>
         </div>
 
@@ -37,7 +38,7 @@ const Hero = () => {
         >
           <motion.img
             variants={slideIn("up", "tween", 0.5, 1.3)}
-            src="./Person.png"
+            src="./11111.png"
             alt=""
           />
         </motion.div>
