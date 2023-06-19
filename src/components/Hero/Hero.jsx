@@ -28,7 +28,7 @@ const Hero = () => {
           >
             I create responsive eye catching
             <br />
-            web applications, and I love what i do.{" "}
+            web applications, and I love what I do.{" "}
           </motion.span>
         </div>
 
