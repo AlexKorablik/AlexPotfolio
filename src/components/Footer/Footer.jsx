@@ -29,7 +29,7 @@ const Footer = () => {
           </span>
           <span className="secondaryText">
             <a
-              href="https://drive.google.com/file/d/1g74liLfC5ikQTqG2tL88Nvc9k4L9ZK3Y/view?usp=sharing"
+              href="https://drive.google.com/file/d/1sr7OlGcY9DgWGTDhLqz28xf1CuaOduZS/view?usp=sharing"
               class="button"
             >
               Download My CV
