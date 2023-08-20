@@ -61,11 +61,23 @@ const Portfolio = () => {
               onClick={() => handleClick("https://beernbeef.vercel.app/")}
             />
           </div>
-          {/* <motion.img
-            variants={fadeIn("up", "tween", 0.9, 0.6)}
-            src="./showCase3.png"
-            alt="project"
-          /> */}
+          <div>
+            <p>Ecommerce Store with Admin consent </p>
+            <a href="https://ecommerce-store-sandy-gamma.vercel.app/">Store</a>
+            <a href="https://ecommerce-admin-ruddy-delta.vercel.app/7f260264-f3a3-4ed8-8a00-ac7c9be1c806">
+              Admin
+            </a>
+            <motion.img
+              variants={fadeIn("up", "tween", 0.5, 0.6)}
+              src="./Capture.jpeg"
+              alt="project"
+              onClick={() =>
+                handleClick(
+                  "https://ecommerce-store-sandy-gamma.vercel.app/category/82049a84-2774-448d-92c5-d9e0789b266e"
+                )
+              }
+            />
+          </div>
         </div>
       </div>
     </motion.section>
